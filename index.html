@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <nav class="nav">
-      <a href="#about" class="nav-item">Über<wbr /> Uns</a>
-      <a href="#" class="nav-item">Speise<wbr />karte</a>
-      <a href="#info" class="nav-item">Öffnungs<wbr />zeiten</a>
-    </nav>
+    <header class="header">
+      <a href="#"><img class="logo" src="img/logo2.svg" alt="logo" /></a>
+
+      <nav class="nav">
+        <a href="#about" class="nav-item">Über<wbr /> Uns</a>
+        <a href="#" class="nav-item">Speise<wbr />karte</a>
+        <a href="#info" class="nav-item">Öffnungs<wbr />zeiten</a>
+      </nav>
+      <div class="filler"></div>
+    </header>
     <main class="main">
       <section class="hero">
-        <h1 class="title">Pizzeria<br />Mamma Mia</h1>
-        <p class="subtitle">Original italienische Küche aus der Toskana</p>
+        <h1 class="title">Sushi<br />Kofookoo</h1>
+        <p class="subtitle">Sushi | Bar | Grill</p>
         <a class="btn hero-action" href="#info">Öffnungszeiten ansehen</a>
       </section>
       <section id="about" class="about container">
@@ -40,20 +45,12 @@
         <div class="about__images">
           <img
             class="about__image about__image--large"
-            src="img/about-1.jpg"
+            src="img/about3.webp"
             alt="Laden von Außen"
           />
           <div class="about__image-small">
-            <img
-              class="about__image"
-              src="img/about-2.jpg"
-              alt="Gäste am Tisch"
-            />
-            <img
-              class="about__image"
-              src="img/about-3.jpg"
-              alt="Frische Pizza"
-            />
+            <img class="about__image" src="img/chef.jpg" alt="Gäste am Tisch" />
+            <img class="about__image" src="img/chef.jpg" alt="Frische Pizza" />
           </div>
         </div>
       </section>
@@ -96,7 +93,7 @@
       <section class="contact container">
         <img
           class="contact__img"
-          src="img/contact.jpg"
+          src="img/cantact.jpg"
           alt="Gruppe von Leuten"
         />
         <div class="contact__content">
@@ -115,9 +112,22 @@
       </section>
       <footer class="footer">
         <nav class="footer__links container">
-          <a href="#" class="footer__item">Impressum</a
-          ><a href="#" class="footer__item">Datenschutzerklärung</a
-          ><a href="#" class="footer__item">Jobs</a>
+          <a
+            href="https://de.wikipedia.org/wiki/Sushi"
+            target="_blank"
+            class="footer__item"
+            >Impressum</a
+          ><a
+            href="https://de.wikipedia.org/wiki/Sushi"
+            target="_blank"
+            class="footer__item"
+            >Datenschutzerklärung</a
+          ><a
+            href="https://de.wikipedia.org/wiki/Sushi"
+            target="_blank"
+            class="footer__item"
+            >Jobs</a
+          >
         </nav>
         <p class="footer__copyright">&copy; 2023 DevKarriere.de</p>
       </footer>

@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Lobster&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* GLOBAL STYLINGS */
 
 * {
@@ -14,7 +16,7 @@ html {
 }
 
 :root {
-  --primary-color: #ff3030;
+  --primary-color: #cba284;
   --text-color: #ddd;
   --bg-color: #1a1a1a;
   --text-color-white: #fff;
@@ -30,7 +32,7 @@ body {
   margin-bottom: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  font-family: "Lobster", cursive;
+  font-family: "Montserrat", cursive;
 }
 
 .subtitle {
@@ -51,8 +53,9 @@ body {
 }
 .btn:hover {
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--text-color-white);
   cursor: pointer;
+  border: 1px solid var(--text-color-white);
 }
 
 .btn-reverse {
@@ -91,6 +94,20 @@ body {
   height: 0.1rem;
 }
 
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+
 /* NAV */
 
 .nav {
@@ -124,8 +141,8 @@ body {
 .hero {
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/hero.jpg); */
-  background-color: rgba(0, 0, 0, 0.7);
-  background-image: url(img/hero.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(img/interior\ 2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,7 +209,7 @@ body {
   margin: 4rem 0 4rem 0;
   padding: 2rem 0;
 
-  background: url(img/info.jpg), rgba(0, 0, 0, 0.8);
+  background: url(img/info.jpeg), rgba(0, 0, 0, 0.8);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
