@@ -41,7 +41,6 @@ body {
 }
 
 .btn {
-  cursor: pointer;
   display: block;
   width: fit-content;
   text-decoration: none;
@@ -56,6 +55,7 @@ body {
   background-color: transparent;
   color: var(--text-color-white);
   border: 1px solid var(--text-color-white);
+  cursor: pointer;
 }
 
 .btn-reverse {
