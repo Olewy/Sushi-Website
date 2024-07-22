@@ -41,6 +41,7 @@ body {
 }
 
 .btn {
+  cursor: pointer;
   display: block;
   width: fit-content;
   text-decoration: none;
@@ -54,7 +55,6 @@ body {
 .btn:hover {
   background-color: transparent;
   color: var(--text-color-white);
-  cursor: pointer;
   border: 1px solid var(--text-color-white);
 }
 
