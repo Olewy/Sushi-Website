@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* GLOBAL STYLINGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #cba284;
+  --text-color: #ddd;
+  --bg-color: #1a1a1a;
+  --text-color-white: #fff;
+}
+
+body {
+  background: url(img/bg-img-menu.avif), rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  font-family: "Inter", sans-serif;
+  background-attachment: fixed;
+}
+
+.main {
+  width: 50%;
+  min-width: 25rem;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.logo {
+  width: 3.5rem;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  color: #1a1a1a95;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.heading {
+  margin-left: 3rem;
+  font-size: 1.3rem;
+  color: #b1adad;
+  font-weight: 400;
+}
+.heading-white {
+  color: #fff;
+}
+
+.lunch {
+  padding: 1.5rem 0rem;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+}
+.table-white {
+  color: #fff;
+}
+
+.table-row {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dish-name {
+  text-transform: capitalize;
+}
+
+.dish-price {
+  font-weight: 200;
+}
+
+.raw-bites {
+  margin: 2rem 0;
+  padding: 3rem 0;
+  background: url(img/raw-bites.avif), rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.all-you-can-eat {
+  background-color: #fff;
+}
+
+.all-you-can-eat-menu {
+  padding: 3rem 0;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.drinks {
+  padding: 3rem 0;
+  background: url(img/drinks.jpeg), rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.footer__text {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+
+@media only screen and (min-width: 476px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 640px) {
+}
+
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
