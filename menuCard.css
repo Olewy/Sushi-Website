@@ -125,7 +125,7 @@ body {
 .text {
   text-align: center;
   margin-top: 2rem;
-  color: var(--text-color);
+  color: #b1adad;
 }
 
 .drinks {

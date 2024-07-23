@@ -97,10 +97,9 @@ body {
 /* HEADER */
 
 .header {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
@@ -141,7 +140,7 @@ body {
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/hero.jpg); */
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url(img/interior\ 2.jpg);
+  background-image: url(img/hero-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
